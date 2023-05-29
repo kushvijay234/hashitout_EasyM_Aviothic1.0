@@ -14,3 +14,6 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
 .form-group.frmid {
     display: none!important;
 }
+nav.navbar.sticky-top.navbar-expand-lg.bg-body-tertiary {
+    margin-bottom: 21px;
+}
