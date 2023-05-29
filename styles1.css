@@ -44,6 +44,7 @@ li.nav-item:hover {
     color: white;
 }
 .features {
+    background-color: white;
     height: 70dvh;
     padding: 10%;
 }
