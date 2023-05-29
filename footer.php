@@ -2,7 +2,7 @@
 <footer class="bg-dark text-light">
 <div class="contact-us">
       <h3>Team Name:</h3>
-      <h1>#Hash it Out🫴🏻</h1>
+      <h1>#Hash it Out</h1>
     </div>
     <div class="email">
       <h3>Contact Us:</h3>

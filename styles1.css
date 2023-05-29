@@ -32,3 +32,18 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
 footer.bg-dark.text-light {
     margin-top: 10dvh;
 }
+
+li.nav-item:hover {
+    background-color: orangered;
+    color: white!important;
+    border-radius: 10px;
+}
+#hero-section {
+    background-image: url('assets/banner1.jpg');
+    height: 70dvh;
+    color: white;
+}
+.features {
+    height: 70dvh;
+    padding: 10%;
+}

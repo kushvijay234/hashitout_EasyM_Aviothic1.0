@@ -25,6 +25,8 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     <div class="container">
         <div class="row">
+            <div>
+            <h3> State: Uttar Pradesh | District: Kanpur Nagar | Ward: 01 </h3><br></div>
             <?php foreach ($rows as $row): ?>
             <div class="col-sm-3 mb-3">
                 <div class="card">
