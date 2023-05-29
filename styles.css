@@ -10,10 +10,8 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
     box-shadow: 0px 1px 7px #000000a3;
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 21px;
 }
 .form-group.frmid {
     display: none!important;
-}
-nav.navbar.sticky-top.navbar-expand-lg.bg-body-tertiary {
-    margin-bottom: 21px;
 }
