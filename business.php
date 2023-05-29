@@ -30,10 +30,10 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="card">
                     <img src="<?php echo $row["productimage"]; ?>" class="card-img-top" alt="Product Image">
                     <div class="card-body">
-                        <h5 class="card-title"><?php echo $row["productname"]; ?></h5>
-                        <p class="card-text"><?php echo $row["productprice"]; ?></p>
+                        <h5 class="card-title" id="productName"><?php echo $row["productname"]; ?></h5>
+                        <p class="card-text" id="productPrice"><?php echo $row["productprice"]; ?></p>
                         <!-- Add more card content for other columns in your "products" table -->
-                        <a href="https://wa.me/+919548928701?text=Product%20Name%3A%20Value%0AProduct%20Price%3A%20Value" class="btn btn-primary">Buy Now</a>
+                        <a href="https://wa.me/+916387501137?text=Product%20Name%3A%20Value%0AProduct%20Price%3A%20Value"  class="btn btn-primary ">Buy Now</a>
                     </div>
                 </div>
             </div>
@@ -41,5 +41,5 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </div>
     
-
+    
 <?php include 'footer.php'; ?>

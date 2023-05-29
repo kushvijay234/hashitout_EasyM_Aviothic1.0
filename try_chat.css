@@ -1,0 +1,70 @@
+footer {
+    background-color: #f88a41;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-us,
+  .team,
+  .email,
+  .social-icons {
+    flex: 1;
+  }
+  
+  .contact-us h3,
+  .team h3,
+  .email h3,
+  .social-icons h3 {
+    margin-top: 0;
+  }
+  
+  .team ul {
+    list-style: none;
+    padding: 0;
+  }
+  .email ul {
+    list-style: none;
+    padding: 0;
+  }
+  .social-icons ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #555;
+  }
+  
+  .social-media-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media-icons a {
+    text-decoration: none;
+    color: #000;
+}
+
+.social-media-icons img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}

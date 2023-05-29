@@ -2,7 +2,7 @@
 <?php include 'Header.php'; ?>    
 
 
-    <div class="container">
+    <div class="container register">
         <h2>Registration Form</h2>
         <form action="process_registration.php" method="POST">
             <div class="form-group">
