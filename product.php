@@ -3,6 +3,10 @@
     <div class="container">
         <h2 class="mt-4">Add Product</h2>
         <form action="process_product.php" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+                <label for="userid">User ID:</label>
+                <input type="text" class="form-control" id="userid" name="userid" required>
+            </div>
             <div class="form-group">
                 <label for="productname">Product Name:</label>
                 <input type="text" class="form-control" id="productname" name="productname" required>

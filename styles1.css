@@ -6,11 +6,11 @@ div#navbarNav {
 }
 
 nav.navbar.navbar-expand-lg.bg-body-tertiary {
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0px 1px 7px #000000a3;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 21px;
+    margin-bottom: 21px!important;
 }
 .form-group.frmid {
     display: none!important;

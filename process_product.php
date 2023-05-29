@@ -16,28 +16,16 @@ try {
 }
 
 // Start the session
-session_start();
 
-// Check if the user is logged in
-if (!isset($_SESSION["userid"])) {
-    $userid = $db->query("SELECT userid FROM users");
-    
-    // Store the 'userid' in the session
-    $_SESSION['userid'] = $userid;
 
-    // Redirect the user to the welcome page
-    header("Location: login_form.php");
-    exit();
-}
 
-// Retrieve the user ID from the session
-$userid = $_SESSION['userid'];
 
 // Process the form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Retrieve the form data
     $productname = $_POST['productname'];
     $productprice = $_POST['productprice'];
+    $userid = $_POST['userid'];
 
     // Handle the uploaded product image
     $targetDir = 'products/'; // Directory where the uploaded images will be stored
