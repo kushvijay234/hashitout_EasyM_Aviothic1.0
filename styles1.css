@@ -48,3 +48,7 @@ li.nav-item:hover {
     height: 70dvh;
     padding: 10%;
 }
+#gallery{
+    border-radius: 148px;
+    height: 200px;
+}
