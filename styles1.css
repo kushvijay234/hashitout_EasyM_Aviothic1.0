@@ -52,3 +52,10 @@ li.nav-item:hover {
     border-radius: 148px;
     height: 200px;
 }
+.gallery {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+}
